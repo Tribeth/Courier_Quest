@@ -8,3 +8,5 @@ WEATHER_MULTIPLIERS = {
     "wind": 0.92,
     "heat": 0.90
 }
+
+URL = "https://tigerds-api.kindflower-ccaf48b6.eastus.azurecontainerapps.io/"
