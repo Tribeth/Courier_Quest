@@ -4,7 +4,7 @@ from src.logic.weather import Weather
 
 @pytest.fixture
 def weather():
-    with open("examples/weather.json", 'r') as f:
+    with open("tests/data/weather.json", 'r') as f:
         data = json.load(f)
         data = data["data"]
         transition = data["transition"]
